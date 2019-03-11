@@ -1,0 +1,43 @@
+body{
+  background-color: #FF1493;
+}
+
+div.menu{
+  background-color: #FF69B4;
+  /* Color altera a cor da fonte */
+  color: #696969;
+  /* Ajusta o tamanho da fonte */
+  font-size: 18px;
+}
+
+div.div1{
+  background-color: #FF69B4;
+}
+
+/* Umid é representado pelo sinal #.
+#nomeDoId é um exemplo de utilização do CSS com ID. */
+
+#rodapePrincipal{
+  text-align: center;
+}
+
+div.rodape{
+  background: #00FF00;
+}
+
+div.conteudo{
+  /* Estilo da borda */
+  border-style: solid;
+  /* tamanho da borda */
+  border-width: 7px;
+  /* cor da borda */
+  border-color: #CD853F;
+  /* margem interna pode ser alterada ultilizada */
+  padding: 0px;
+}
+
+/* tudo colocado aqui vai para todo mundo */
+*{
+  padding: 0px;
+  margin: 0;
+}
