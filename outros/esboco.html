@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>BuscaEmpregos</title>
     <link rel="stylesheet" href="esboco.css">
-    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/web-technology-outline/100/outline_search_lupa_find-512.png">
+    <link rel="icon" href="lupa.png">
   </head>
   <body>
     <div class="menu-bar">
       <ul class="navbar">
         <!-- <li class="menu-img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1WOFfoGc-VYHVKijewXcFlKhePcJHfmcBJlek-YvwoIJeneDNPA" alt="" href="#"></li> -->
+        <li class="menu"><img src="buscaempregos.png" alt="" width="178" height="42"></li>
         <li class="menu"><a href="#">Sobre</a></li>
         <li class="menu"><a href="#">Empresas</a></li>
         <li class="menu"><a href="#">Currículos</a></li>
@@ -17,11 +18,24 @@
         <li class="menu" id="canto"><a href="#">Cadastro</a></li>
         <li class="menu" id="canto"><a href="#">Login</a></li>
       </ul>
+      <br>
+      <hr>
     </div>
 
     <div class="background-site">
       <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1WOFfoGc-VYHVKijewXcFlKhePcJHfmcBJlek-YvwoIJeneDNPA" alt=""> -->
-      <img src="https://cdn2.iconfinder.com/data/icons/web-technology-outline/100/outline_search_lupa_find-512.png" height="200" width="200" alt="" style="float: right;">
+      <!-- <img src="https://cdn2.iconfinder.com/data/icons/web-technology-outline/100/outline_search_lupa_find-512.png" height="200" width="200" alt="" style="float: right;"> -->
+      <h1 class="title">BuscaEmpregos</h1>
+      <p class="desc">A empresa Busca Empregos funciona diretamente entre as empresas e empregados. Na empresa o cadastramento funciona de forma manual
+        onde a pessoa que está procurando emprego apresenta seu currículo e responde algumas perguntas, após isso é cobrado uma taxa por dia em que os dados ficam a deriva das empresas que são cadastradas de forma semelhante.  A empresa que está buscando funcionários consegue
+        analisar o perfil das pessoas e contatar a pessoa que mais se assemelham às características necessárias</p>
     </div>
+
+    <div id="divBusca">
+      <img src="lupa.png" height="34" width="34" alt="Buscar..."/>
+      <input type="text" id="txtBusca" placeholder="Buscar..."/>
+      <button id="btnBusca">Buscar</button>
+    </div>
+
   </body>
 </html>

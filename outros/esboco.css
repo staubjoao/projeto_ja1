@@ -4,12 +4,20 @@
   padding: 0;
 } */
 
+body{
+  color: #5d665b;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  background-color: #DCDCDC;
+  /* background-color: #DCDCDC; */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #FFFFFF;
 }
 
 li.menu, li.menu-img {
@@ -18,22 +26,70 @@ li.menu, li.menu-img {
 
 li a {
   display: block;
-  color: white;
+  color: #000080;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 div.background-site{
-  float: left;
+    position: absolute;
+    text-align: justify;
+    right: 600px;
+	  top: 65px;
+    padding: 14px 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #DCDCDC;
 }
 #canto{
   /* float:right" */
   float: right;
   background-color: #4CAF50;
+}
+
+h1.title{
+  color: #4682B4;
+  letter-spacing: 3px;
+}
+
+p.desc{
+}
+
+hr{
+  border-color: #E0FFFF;
+}
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+#divBusca img{
+  float:left;
 }
