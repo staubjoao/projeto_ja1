@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css ">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <title>Aula01, Jquery</title>
+
+    <!-- Importanto jQuery -->
+    <script src="js/jquery-3.4.1.js"></script>
+
+    <!-- Ultilização do JS, jQuery -->
+    <script>
+      //Aqui vai todo o código JS
+      $(document).ready(function(){
+        //mostrar
+        $("#btnPessoal").click(function(){
+          $("#pessoal").show('slow/400/fast', function() {
+
+          });
+        })
+
+        $("#btnAcademico").click(function(){
+          $("#academico").show('slow/400/fast', function() {
+
+          });
+        })
+
+        $("#btnContado").click(function(){
+          $("#contado").show('slow/400/fast', function() {
+
+          });
+        })
+
+        $("#btnLimpar").click(function(){
+          $("#pessoal").hide();
+          $("#academico").hide();
+          $("#contado").hide();
+        })
+
+        //cria um envento ao clicar no botão com o id
+        // $("#btnEsconder").click(function(){
+        //   $("#nome").hide();
+        // });
+        //
+        // $("#btnMostrar").click(function(){
+        //   $("#nome").show();
+        // });
+
+        // alert("Funfo");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h2>jQuery</h2>
+
+      <p id="nome">João Vitor Staub Castanho</p>
+      <p>Esse é o segundo p</p>
+      <p>Esse é o terceiro p</p>
+
+      <button type="button" class="btn btn-info" id="btnEsconder">
+        Esconder
+      </button>
+
+      <button type="button" class="btn btn-info" id="btnMostrar">
+        Mostrar
+      </button> -->
+
+
+      <h2>Exemplo com abas</h2>
+
+      <div class="row">
+        <div id="pessoal" class="col-sm-4" style="display: none;">
+          <p>João Vitor Staub Castanho<br>CPF: 111.111.111-11</p>
+        </div>
+        <div id="academico" class="col-sm-4" style="display: none;">
+          <p>RA: 6564 <br>Ano: 4°Ano<br>Curso: Informatíca</p>
+        </div>
+        <div id="contado" class="col-sm-4" style="display: none;">
+          <p>Número: 99516564644<br>Endereço: xxxxxxx</p>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-info" id="btnPessoal">
+            Dados pessoais
+          </button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-info" id="btnAcademico">
+            Dados academicos
+          </button>
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-info" id="btnContado">
+            Dados de contato
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-info" id="btnLimpar">
+            Limpar
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
